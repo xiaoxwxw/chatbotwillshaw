@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: chatbotwillshaw
+  host: chatbotwillshaw
+  disk_quota: 1024M
+  services:
+  - Conversation-p9
+  - Speech to Text-q4
+  - Text to Speech-qjaaa
