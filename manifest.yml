@@ -1,5 +1,13 @@
 applications:
+<<<<<<< HEAD
+<<<<<<< Upstream, based on e0973a6a76049171195a68db00539d3a13ce834e
 - path: Chatbot.war
+=======
+- path: target/Chatbot.war
+>>>>>>> a7aada3 chatbot.war added
+=======
+- path: target/JavaHelloWorldApp.war
+>>>>>>> e0973a6 Update manifest.yml
   memory: 512M
   instances: 1
   domain: mybluemix.net
